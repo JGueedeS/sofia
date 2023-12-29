@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(228, 105, 220, 0.473);
+}
+
+
+.password{
+    height: auto;
+    width: 100px;
+    border: 3px solid rgb(159, 71, 71);
+    border-radius: 20px;
+    margin-left: 20%;
+    
+}
+
+.btn{
+    margin-left: 43%;
+    background-color: rgba(176, 39, 62, 0.446);
+    border: 1px solid rgb(109, 24, 24);
+    cursor: pointer;
+    font-size: 11px;
+    
+}
+
+.heart1{
+    font-size: 200px;
+    color: rgba(255, 0, 0, 0.417);
+    animation: drop 35s infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    z-index: -10;
+}
+
+.heart2{
+    font-size: 200px;
+    color: rgba(128, 0, 128, 0.5);
+    animation: drop 25s infinite;
+    animation-timing-function: linear;
+    left: 30%;
+    position: absolute;
+    z-index: -10;
+}
+
+.heart3{
+    font-size: 200px;
+    color: rgba(255, 0, 0, 0.511);
+    animation: drop 30s infinite;
+    left: 60%;
+    top: -20%;
+    animation-timing-function: linear;
+    position: absolute;
+    z-index: -10;
+    
+}
+
+.heart4{
+    font-size: 200px;
+    color: rgba(158, 99, 198, 0.412);
+    animation: drop 40s infinite;
+    left: 45%;
+    animation-timing-function: linear;
+    position: absolute;
+    z-index: -10;
+}
+
+@keyframes drop {
+    0%{top: -100px;}
+    100%{top: 600px;}
+}
